@@ -1,0 +1,42 @@
+{
+   "name": "typeorm",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "apidoc": {
+      "title": "Custom apiDoc browser title",
+      "url": "https://api.github.com/v1"
+   },
+   "devDependencies": {
+      "@types/chai": "^4.2.10",
+      "@types/mocha": "^7.0.2",
+      "@types/node": "^8.0.29",
+      "chai": "^3.5.0",
+      "chai-http": "^1.0.0",
+      "mocha": "^7.1.0",
+      "ts-node": "^3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "bcrypt": "^4.0.0",
+      "body-parser": "^1.18.1",
+      "class-validator": "^0.11.0",
+      "cookie-httponly": "^1.0.3",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "express-openapi": "^6.0.0",
+      "jsonwebtoken": "^8.5.1",
+      "mysql": "^2.14.1",
+      "nodemon": "^2.0.2",
+      "openapi-backend": "^2.3.5",
+      "osm": "^1.0.0",
+      "reflect-metadata": "^0.1.10",
+      "sessionstorage": "^0.1.0",
+      "swagger-ui": "^3.25.0",
+      "typeorm": "0.2.22"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "typeorm": "ts-node ./node_modules/typeorm/cli.js",
+      "test": "mocha -r ts-node/register tests/tests.ts"
+   }
+}
